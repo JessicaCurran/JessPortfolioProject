@@ -1,6 +1,4 @@
-<script>
 
-</script>
 
 
 <style>
@@ -133,7 +131,12 @@
          left: 5%;
          width: 300px;
          z-index: 1;
+         transition: transform 0.3s ease;
         
+    }
+
+    .drawing1:hover {
+        transform:scale(1.3);
     }
 
     .home {
@@ -147,10 +150,15 @@
     .drawing2 {
          position: absolute;
          top: 90%;
-         right: 10%;
+         right: 7%;
          width: 400px;
          z-index: 1;
+         transition: transform 0.3s ease;
         
+    }
+
+    .drawing2:hover {
+        transform:scale(1.3);
     }
  
 
