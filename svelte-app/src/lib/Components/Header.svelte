@@ -3,7 +3,7 @@
 </script>
 
 <header>
-    <div class = "logo">
+    <div class = "home">
     </div>
     <Navigation/>
 </header>

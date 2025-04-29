@@ -1,6 +1,10 @@
 
 
 <nav>
+    <a href="/" class="home">
+        <img src="home.png" alt="home">
+    </a>
+
     <ul>
         <li><a href= "/My CV">My CV</a></li>
         <li><a href= "/About me">About me</a></li>
@@ -16,7 +20,20 @@
         top: 22%;
         left: 2.1%;
         z-index: 1000;
-        background-color: rgb(247, 188, 215);
+        background-color: rgb(250, 220, 233);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    nav .home {
+        position: absolute;
+        top: 2px;
+        left: 60px;
+    }
+
+    nav .home img {
+        height: 80px;
     }
 
     nav ul {
@@ -35,7 +52,6 @@
 
     nav ul li a {
         color: rgb(115, 11, 124);
-        top: 10%;
         text-decoration: none;
         font-family: "Verdana", Sans-serif;
         font-weight: bold;
@@ -47,15 +63,15 @@
         color: rgb(255, 255, 255);
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 800px) {
         nav ul {
             flex-direction: column;
             height: auto;
-            padding: 10px 0;
+            padding: 20px 0;
         }
 
         nav ul li {
-            margin: 10px 0;
+            margin: 20px 0;
         }
     }
 

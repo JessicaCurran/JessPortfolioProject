@@ -78,13 +78,7 @@
         transform:scale(1.3);
     }
 
-    .home {
-         position: absolute;
-         top: 6%;
-         left: 4%;
-         width: 150px;
-         z-index: 1;
-    }
+   
 
     .drawing2 {
          position: absolute;
@@ -123,7 +117,7 @@
 <div class= "background">
 </div>
 <img src= "tokyo ghoul complete.png" alt= "drawing1" class= "drawing1"/>
-<img src= "home.png" alt= "homeButton" class= "home"/>
+
 <img src= "drawing2.jpg" alt= "drawing2" class= "drawing2"/>
 
 
