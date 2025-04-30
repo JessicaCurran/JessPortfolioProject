@@ -1,3 +1,9 @@
+
+<nav>
+<a href ="/College work" class="collegework">College Work</a>
+<a href ="/At home work" class="homework">At home Work</a>
+</nav>
+
 <style>
 
 h1 {
@@ -13,16 +19,79 @@ h1 {
 
 
 .background {
-    background-image: url('cloud.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 160vh;
+         background-image: url('cloud.jpg');
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         height: 100vh;
    
 }
+
+.collegework {
+        color: rgb(115, 11, 124);
+        text-decoration: none;
+        font-family: "Verdana", Sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        top: 80%;
+        left: 25%;
+        position: absolute;
+        transition: color 0.3s ease;
+}
+
+.collegework:hover {
+        color: rgb(255, 255, 255);
+    }
+
+.homework {
+        color: rgb(115, 11, 124);
+        text-decoration: none;
+        font-family: "Verdana", Sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        top: 80%;
+        right: 25%;
+        position: absolute;
+        transition: color 0.3s ease;
+}
+
+.homework:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .colourblock {
+         position: absolute;
+         top: 40%;
+         left: 20%;
+         width: 450px;
+         z-index: 1;
+         transition: transform 0.3s ease;
+        
+    }
+
+    .colourblock:hover {
+        transform:scale(1.3);
+    }
+
+    .skeleton {
+         position: absolute;
+         top: 40%;
+         right: 25%;
+         width: 320px;
+         z-index: 1;
+         transition: transform 0.3s ease;
+        
+    }
+
+    .skeleton:hover {
+        transform:scale(1.3);
+    }
+
 
 
 </style>
 
 <div class= "background"></div>
 <h1>My work</h1>
+<img src= "colourblock collage.png" alt= "colourblock collage" class= "colourblock"/>
+<img src= "skeleton.png" alt= "skeleton drawing" class= "skeleton"/>

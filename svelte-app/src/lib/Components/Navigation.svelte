@@ -10,7 +10,9 @@
         <li><a href= "/About me">About me</a></li>
         <li><a href= "/My work">My work</a></li>
     </ul>
+  
 </nav>
+
 
 <style>
     nav {
