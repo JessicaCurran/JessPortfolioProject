@@ -24,17 +24,17 @@
         color: rgb(255, 255, 255);
     }
 
-    h6 {
+    .line1 {
         font-family: "Verdana", Sans-serif;
         position: absolute;
-        top: 40%;
+        top: 45%;
         left: 26%;
         font-weight: bold;
         font-size: 30px;
         color: rgb(255, 255, 255);
     }
 
-    h7 {
+    .line2 {
         font-family: "Verdana", Sans-serif;
         position: absolute;
         top: 70%;
@@ -44,7 +44,7 @@
         color: rgb(255, 255, 255);
     }
 
-    h8 {
+    .line3 {
         font-family: "Verdana", Sans-serif;
         position: absolute;
         top: 100%;
@@ -59,7 +59,7 @@
          background-size: cover;
          background-position: center;
          background-repeat: no-repeat;
-         height: 160vh;
+         height: 140vh;
         
     }
 
@@ -106,13 +106,13 @@
 
 <h1>Jess' Site</h1>
 <h2>Hello!</h2>
-<h6>My name is Jess and this is my website. I am 21 and am currently studying <br> digital art and design. I have 
-    always had a big passion for art and all things <br> creative. For most of my life i have done traditional drawings with pen and <br> paper but since starting this course, i've started exploring more digital art <br> which i would like to learn more and get better at.</h6>
-<h7>Im not sure exactly what i would like to do in the future but i would love <br> to be involved with something creative and possibly art related.</h7>
-    <h8> This is my website where i will showcase some of the work i have
-         done <br> over the years including drawings, games and digital artwork. My most <br> prefered art style has always been on paper using lots of colour. 
-        Since <br> starting this course, i have discovered and learned all about digital art <br> and have really enjoyed learning and experimenting with all of the <br>
-    different ways to create digital art.</h8>
+<div id="line1" class="line1">My name is Jess and this is my website. I am 21 and am currently studying <br> digital art and design. I have 
+    always had a big passion for art and all things <br> creative. For most of my life i have done traditional drawings with pen and <br> paper but since starting this course, i've started exploring more digital art <br> which i would like to learn more and get better at.</div>
+<div id="line2" class="line2">Im not sure exactly what i would like to do in the future but i would love <br> to be involved with something creative and possibly art related.</div>
+<div id="line3" class="line3"> This is my website where i will showcase some of the work i have
+     done <br> over the years including drawings, games and digital artwork. My most <br> prefered art style has always been on paper using lots of colour. 
+     Since <br> starting this course, i have discovered and learned all about digital art <br> and have really enjoyed learning and experimenting with all of the <br>
+    different ways to create digital art.</div>
 <div class= "background">
 </div>
 <img src= "tokyo ghoul complete.png" alt= "drawing1" class= "drawing1"/>

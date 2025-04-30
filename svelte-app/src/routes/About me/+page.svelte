@@ -16,7 +16,7 @@ h1 {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 250vh;
+        height: 230vh;
        
     }
 

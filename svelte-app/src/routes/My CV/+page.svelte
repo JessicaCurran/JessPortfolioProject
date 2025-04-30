@@ -20,9 +20,24 @@ h1 {
         height: 160vh;
        
     }
+
+    .cv {
+         position: absolute;
+         top: 45%;
+         left: 10%;
+         width: 1500px;
+         z-index: 1;
+         transition: transform 0.3s ease;
+        
+    }
+
+    .cv:hover {
+        transform:scale(1.1);
+    }
     
     
     </style>
     
     <div class= "background"></div>
     <h1>My CV</h1>
+    <img src= "cv.png" alt= "cv" class= "cv"/>

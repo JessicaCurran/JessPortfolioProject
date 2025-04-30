@@ -34,7 +34,14 @@
 
     nav .home img {
         height: 80px;
+        transition: transition 0.3s ease, opacity 0.3s ease;
     }
+
+    nav .home img:hover {
+        transform: scale(1.2);
+        color: rgb(255, 255, 255);
+    }
+
 
     nav ul {
         margin: 0;
