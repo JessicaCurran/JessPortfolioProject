@@ -105,7 +105,6 @@
 
 
 <h1>Jess' Site</h1>
-
 <h2>Hello!</h2>
 <h6>My name is Jess and this is my website. I am 21 and am currently studying <br> digital art and design. I have 
     always had a big passion for art and all things <br> creative. For most of my life i have done traditional drawings with pen and <br> paper but since starting this course, i've started exploring more digital art <br> which i would like to learn more and get better at.</h6>
@@ -117,7 +116,6 @@
 <div class= "background">
 </div>
 <img src= "tokyo ghoul complete.png" alt= "drawing1" class= "drawing1"/>
-
 <img src= "drawing2.jpg" alt= "drawing2" class= "drawing2"/>
 
 
