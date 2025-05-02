@@ -16,7 +16,7 @@ h1 {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 600vh;
+            height: 650vh;
            
         }
 
@@ -200,6 +200,71 @@ h1 {
         transform:scale(1.3);
     }
 
+    .tears {
+         position: absolute;
+         top: 500%;
+         left: 38%;
+         width: 470px;
+         z-index: 1;
+         transition: transform 0.3s ease;
+    }
+
+    .tears:hover {
+        transform:scale(1.3);
+    }
+
+    .skull {
+         position: absolute;
+         top: 500%;
+         right: 7%;
+         width: 450px;
+         z-index: 1;
+         transition: transform 0.3s ease;
+    }
+
+    .skull:hover {
+        transform:scale(1.3);
+    }
+    
+    .skull2 {
+         position: absolute;
+         top: 500%;
+         left: 7%;
+         width: 480px;
+         z-index: 1;
+         transition: transform 0.3s ease;
+    }
+
+    .skull2:hover {
+        transform:scale(1.3);
+    }
+
+    .porsche {
+         position: absolute;
+         top: 570%;
+         right: 20%;
+         width: 485px;
+         z-index: 1;
+         transition: transform 0.3s ease;
+    }
+
+    .porsche:hover {
+        transform:scale(1.3);
+    }
+
+    .wizard {
+         position: absolute;
+         top: 570%;
+         left: 22%;
+         width: 400px;
+         z-index: 1;
+         transition: transform 0.3s ease;
+    }
+
+    .wizard:hover {
+        transform:scale(1.3);
+    }
+    
     
 
     </style>
@@ -220,8 +285,13 @@ h1 {
     <img src= "octopus.jpg" alt= "octopus drawing" class= "octopus"/>
     <img src= "mushroom3.jpg" alt= "mushroom drawing" class= "mushroom3"/>
     <img src= "banana.jpg" alt= "banana drawing" class= "banana"/>
-    <div id="line2" class="line2">My art style has always been very weird and unusual drawing very trippy stuff with a lot of <br> bright colours. I have done some realistic
+    <div id="line2" class="line2">My art style has always been very weird and unusual drawings, very trippy stuff with a lot of <br> bright colours. I have done some realistic
         drawings as you can see but my main style is the <br> weird and colourful ones.
     </div>
     <img src= "girl4.jpg" alt= "girl drawing" class= "girl4"/>
     <img src= "rick.jpg" alt= "rick drawing" class= "rick"/>
+    <img src= "tears.jpg" alt= "girl drawing" class= "tears"/>
+    <img src= "skull.jpg" alt= "skull drawing" class= "skull"/>
+    <img src= "skull2.jpg" alt= "skull drawing" class= "skull2"/>
+    <img src= "porsche.jpg" alt= "porsche drawing" class= "porsche"/>
+    <img src= "wizard.jpg" alt= "wizard frog drawing" class= "wizard"/>
