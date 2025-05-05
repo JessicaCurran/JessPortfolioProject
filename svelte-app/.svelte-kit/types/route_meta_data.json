@@ -1,0 +1,33 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/Aboutme": [
+		"src/routes/+layout.js"
+	],
+	"/Artwork": [
+		"src/routes/+layout.js"
+	],
+	"/At home work": [
+		"src/routes/+layout.js"
+	],
+	"/College work": [
+		"src/routes/+layout.js"
+	],
+	"/Digital": [
+		"src/routes/+layout.js"
+	],
+	"/Games": [
+		"src/routes/+layout.js"
+	],
+	"/MyCV": [
+		"src/routes/+layout.js"
+	],
+	"/Mywork": [
+		"src/routes/+layout.js"
+	],
+	"/Traditional": [
+		"src/routes/+layout.js"
+	]
+}
